@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.left {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.right {
+    flex: 2;
+}
+
+.profile-photo {
+    text-align: center; /* Center the photo */
+    margin-bottom: 50px; /* Space below the photo */
+}
+
+.profile-photo img {
+    width: 130px; /* Set a much smaller width for the photo */
+    height: 150px; /* Set a much smaller height for the photo (passport shape) */
+    border-radius: 5px; /* Slightly rounded corners */
+    object-fit: cover; /* Ensure the image covers the area */
+    border: 2px solid #007bff; /* Add a border color */
+}
+
+h1 {
+   
+        margin-top: 20px; /* Add space above each section heading */
+        border-bottom: 2px solid #007bff; /* Thicker blue line below each heading */
+        padding-bottom: 5px; /* Space between text and the line */
+   
+}
+
+.projects {
+    margin-top: 10px; /* Add space above the projects section */
+}
+
+.projects p {
+    margin: 5px 0; /* Space between project items */
+}
+
+footer {
+    text-align: center; /* Center the text in the footer */
+    margin-top: 20px; /* Space above the footer */
+    font-size: 14px; /* Smaller font size for the footer */
+    color: #555; /* A lighter color for the text */
+    border-top: 1px solid #ddd; /* Optional: add a top border */
+    padding: 10px 0; /* Space above and below the text */
+}
+.line {
+    height: 5px; /* Increased thickness */
+    background-color: #000000; /* Darker color */
+    border: none;
+    margin: 30px 0;
+}
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 15px 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.linksec {
+    display: flex;
+    gap: 30px;
+}
+
+.linksec a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.linksec a:hover {
+    color: #ffc107;
+}
